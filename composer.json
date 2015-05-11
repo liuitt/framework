@@ -1,12 +1,19 @@
 {
-	"name": "liuitt/framework",
-	"description": "The Liuitt Framework.",
-	"keywords": ["framework", "liuitt"],
-	"license": "MIT",
-  	"require" : {
-		"php": ">=5.4.0",
-        	"ext-openssl": "*",
-        	"ext-mcrypt": "*",
-        	"ext-mbstring": "*"
-  	}
+  "name": "liuitt/framework",
+  "description": "The Liuitt Framework.",
+  "keywords": [
+    "framework",
+    "liuitt"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-openssl": "*",
+    "ext-mcrypt": "*",
+    "ext-mbstring": "*"
+  },
+  "psr-4": {
+    "Liuitt\\": "src/Liuitt/"
+  }
 }
+
