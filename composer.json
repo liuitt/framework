@@ -1,19 +1,38 @@
 {
-  "name": "liuitt/framework",
-  "description": "The Liuitt Framework.",
-  "keywords": [
-    "framework",
-    "liuitt"
-  ],
-  "license": "MIT",
-  "require": {
-    "php": ">=5.4.0",
-    "ext-openssl": "*",
-    "ext-mcrypt": "*",
-    "ext-mbstring": "*"
-  },
-  "psr-4": {
-    "Liuitt\\": "src/Liuitt/"
-  }
+    "name": "liuitt/framework",
+    "description": "The Liuitt Framework.",
+    "keywords": ["framework", "liuitt"],
+    "license": "MIT",
+    "homepage": "http://liuitt.com",
+    "support": {
+        "issues": "https://github.com/liuitt/framework/issues",
+        "source": "https://github.com/liuitt/framework"
+    },
+    "authors": [
+        {
+            "name": "Gilberto Albino",
+            "email": "gilbertoalbino@gmail.com"
+        }
+    ],
+     "require": {
+        "php": ">=5.4.0",
+        "ext-openssl": "*",
+        "ext-mcrypt": "*",
+        "ext-mbstring": "*"
+     },
+      "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liuitt\\": "src/Liuitt/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
 }
 
